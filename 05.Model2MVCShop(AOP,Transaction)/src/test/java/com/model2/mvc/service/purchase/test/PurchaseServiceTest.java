@@ -51,7 +51,7 @@ public class PurchaseServiceTest {
 	@Qualifier("userServiceImpl")
 	private UserService userService;
 	
-	@Test
+	//@Test
 	public void testAddPurchase() throws Exception {
 		
 		Purchase purchase = new Purchase();
@@ -179,7 +179,7 @@ public class PurchaseServiceTest {
 
 	 }
 	 
-	// @Test
+	 @Test
 	public void testGetPurchaseListAll() throws Exception {
 
 		Search search = new Search();
